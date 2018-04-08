@@ -15,29 +15,69 @@ Simulation
 what is an Array?
 A. An array is a systematic arrangement of similar objects, usually in rows and columns.
 what is the difference between the Array and ArrayList?
-A.
+A. Array is a fixed size data structure while ArrayList is not. One need not to mention the size of Arraylist while creating its object. Even if we specify some initial capacity, we can add more elements.
 what is LinkedList?
+A.  A linked list is a linear data structure where each element is a separate object.
 How is an Array different from Linked List?
+A. In array, elements can be accessed using index/subscript value, i.e. elements can be randomly accessed like arr[0], arr[3], etc. So array provides fast and random access.	In linked list, elements can’t be accessed randomly but can be accessed only sequentially and accessing element takes 0(n) time.
 what is queue?
+A. In computer science, a queue is a particular kind of abstract data type or collection in which the entities in the collection are kept in order and the principle (or only) operations on the collection are the addition of entities to the rear terminal position, known as enqueue, and removal of entities from the front terminal position, known as dequeue
 what is stack?
+A. A stack is an array or list structure of function calls and parameters used in modern computer programming and CPU architecture
 what is FIFO and LIFO?
+A. FIFO is a contraction of the term "first in, first out," and means that the goods first added to inventory are assumed to be the first goods removed from inventory for sale. LIFO is a contraction of the term "last in, first out,"
 what is the order of complexity?
+A. Time Complexity/Order of Growth defines the amount of time taken by any program with respect to the size of the input. Time Complexity specifies how the program would behave as the order of size of input is increased.
 what is the best case to search an element from an array?
+A. Find the max number in one dimension array , then find the best, worst and average cases for time complexities?
 what is the worst case to search an element from an array?
+A. Find the max number in one dimension array , then find the best, worst and average cases for time complexities?
 what is tree in data structure?
+A. Tree represents the nodes connected by edges. We will discuss binary tree or binary search tree specifically.
+Binary Tree is a special datastructure used for data storage purposes.
 what is graph in data structure?
-what is the difference between the HashTable and HashMap?
+A. In computer science, a graph is an abstract data type that is meant to implement the undirected graph and directed graph concepts from mathematics, specifically the field of graph theory.
+what is the difference between the hashtable and hashmap?
+A. The HashMap class is roughly equivalent to Hashtable, except that it is non synchronized and permits nulls. (HashMap allows null values as key and value whereas Hashtable doesn't allow nulls).
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
 How HashMap works in java?
+A. HashMap contains an array of Node and Node can represent a class having following objects :
+   int hash
+   K key
+   V value
+   Node next
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+A. The ArrayIndexOutOfBoundsException, also known as java.lang.ArrayIndexOutOfBoundsExcepiton is one of the most common errors in Java program. It occurs when Java program tries to access an invalid index e.g. an index which is not positive or greater than the length of an array
 What are the different ways of copying an array into another array?
+A. There are mainly four different ways to copy all elements of one array into another array in Java.
+    Manually
+    Arrays.copyOf()
+    System.arraycopy()
+    Object.clone()
 What is difference between an array and a linked list?
+A. Both Arrays and Linked List can be used to store linear data of similar types, but they both have some advantages and disadvantages over each other.
 What is DFS and BFS?
+A. Breadth First Traversal (Or Level Order Traversal)
+   Depth First Traversals
+   Inorder Traversal (Left-Root-Right)
+   Preorder Traversal (Root-Left-Right)
+   Postorder Traversal (Left-Right-Root)
 What is Recursion?
+A. Recursion in computer science is a method where the solution to a problem depends on solutions to smaller instances of the same problem
 What are linear and non linear data Structures?
+A. Every item is related to its previous and next item.	Every item is attached with many other items.
+   Data is arranged in linear sequence.	Data is not arranged in sequence.
 What is Big-(O)-notation?
+A. Big O notation is a mathematical notation that describes the limiting behaviour of a function when the argument tends towards a particular value or infinity.
 Outlined different kind of sorting algorithm with time complexity?
-
+A. Selection Sort
+   Bubble Sort
+   Insertion Sort
+   Heap Sort
+   Quick Sort
+   Merge Sort
+   Bucket Sort
+   Radix Sort
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a)In terms of Accessing element.
   b)In terms of Inserting element.
